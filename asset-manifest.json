@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/live-code-sync/static/css/main.5b1ffe7d.css",
+    "main.js": "/live-code-sync/static/js/main.4eec3e7d.js",
+    "static/js/787.c03f793a.chunk.js": "/live-code-sync/static/js/787.c03f793a.chunk.js",
+    "index.html": "/live-code-sync/index.html",
+    "main.5b1ffe7d.css.map": "/live-code-sync/static/css/main.5b1ffe7d.css.map",
+    "main.4eec3e7d.js.map": "/live-code-sync/static/js/main.4eec3e7d.js.map",
+    "787.c03f793a.chunk.js.map": "/live-code-sync/static/js/787.c03f793a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b1ffe7d.css",
+    "static/js/main.4eec3e7d.js"
+  ]
+}
