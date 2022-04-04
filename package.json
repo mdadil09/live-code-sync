@@ -1,6 +1,7 @@
 {
   "name": "realtime-code-editor",
   "version": "0.1.0",
+  "homepage": "https://mdadil09.github.io/live-code-sync",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
@@ -22,8 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:front": "react-scripts start",
-    "start": "npm run build && npm run server:prod",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "server:dev": "nodemon server.js",
     "server:prod": "node server.js",
@@ -49,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "nodemon": "^2.0.15"
   }
 }
